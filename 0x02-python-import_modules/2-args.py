@@ -2,9 +2,9 @@
 if __name__ == "__main":
     import sys
     size = len(sys.argv) - 1
-    if size == 1:
-        print("{} argument.".format(size))
+    if (len(sys.argv) - 1 == 1):
+        print("{} argument.".format(len(sys.argv) - 1))
     else:
-        print("{} arguments:".format(size))
+        print("{} arguments:".format(len(sys.argv) - 1))
     for i in range(1, size + 1):
         print("{}: {}".format(i, sys.argv[i]))
