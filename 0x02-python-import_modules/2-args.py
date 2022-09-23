@@ -3,7 +3,7 @@ if __name__ == "__main__":
     import sys
     count = len(sys.argv) - 1
     if count == 1:
-        print("{:d} argument.".format(count))
+        print("{:d} argument:".format(count))
     elif count == 0:
         print("{:d} arguments.".format(count))
     else:
