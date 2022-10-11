@@ -1,9 +1,8 @@
 #!/usr/bin/python3
 # 0-square.py by GF
-"""Defines a square"""
-
+"""Defines a square """
 
 
 class Square:
-    """Nothing"""
+    """Does Nothing"""
     pass
