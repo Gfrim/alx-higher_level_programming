@@ -4,7 +4,11 @@
 
 
 class Square:
+    """ Represents Square class """
+
     def __init__(self, size):
-        """ Initialize size attribute"""
+        """ Initialization of arguments
+            Args - size represent size of the square
+        """
 
         self.__size = size
