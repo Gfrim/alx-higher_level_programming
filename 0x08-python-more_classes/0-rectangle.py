@@ -1,8 +1,7 @@
 #!/usr/bin/python3
-# 0-rectangle.py by GF
-"""Defines a rectangle """
+"""A class that defines a rectangle"""
 
 
 class Rectangle:
-	"""Does nothing"""
-	pass
+    """An empty class that represents a rectangle"""
+    pass
